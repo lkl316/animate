@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+ul{
+    list-style: none;
+}
+.title{
+    text-align: center;
+}
+.title div:nth-child(1){
+    font-size: 30px;
+    margin-top: 33px;
+}
+.title div:nth-child(2){
+    font-size: 100px;
+    margin-top: 33px;
+    color: red;
+}
+.title div:nth-child(3){
+    font-size: 30px;
+    margin-top: 33px;
+    color: gray;
+    margin-left: 500px;
+}
+.list{
+    padding-top: 15px;
+    width: 70%;
+    height: 150px;
+    margin: 60px auto;
+    background-color: rgb(165, 164, 164);
+    margin-bottom: 0;
+}
+.list li{
+    width: 180px;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    margin: 5px;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+.list li.active{
+    background-color: orange;
+    color: white;
+}
+.box{
+    width: 100%;
+}
+.box ul{
+    display: none;
+    width: 60%;
+    margin: 0 auto;
+}
+.box ul.active{
+    display: block;
+}
+.box li{
+    padding: 10px;
+    padding-top: 0;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(20, 30, 60, .4);
+    margin: 10px;
+    cursor: pointer;
+}
+.box ul li.active{
+    background-color: red;
+    color: white;
+}
+footer{
+    width: 60%;
+    margin: 120px auto;
+}
+footer .explain{
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 40px;
+}
+footer .explain div{
+    text-align: center;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    cursor: pointer;
+}
+.illustrate div{
+    display: none;
+}
+.illustrate .item{
+    display: block;
+}
+.illustrate .use{
+    width: 400px;
+    height: 150px;
+    background-color: pink;
+    color: black;
+    margin: 0 auto;
+}
+.illustrate .use ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.illustrate .install{
+    width: 300px;
+    height: 150px;
+    background-color: gray;
+    margin: 0 auto;
+    text-align: center;
+}
+.illustrate .install button{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.illustrate .install button:nth-child(1){
+    background-color: green;
+    color: black;
+}
+.illustrate .install button:nth-child(3){
+    background-color: red;
+    color: white;
+}
+.illustrate .install button:nth-child(5){
+    background-color: orange;
+    color: red;
+}
+footer .explain .item{
+    background-color: yellow;
+    color: black;
+}
