@@ -4,6 +4,7 @@
 }
 html,body{
     height: 100%;
+    font-size: 1rem;
 }
 ul{
     list-style: none;
@@ -12,35 +13,35 @@ ul{
     text-align: center;
 }
 .title div:nth-child(1){
-    font-size: 30px;
-    margin-top: 33px;
+    font-size: 1.875rem;
+    margin-top: 2.0625rem;
 }
 .title div:nth-child(2){
-    font-size: 100px;
-    margin-top: 33px;
+    font-size: 6.25rem;
+    margin-top: 2.0625rem;
     color: red;
 }
 .title div:nth-child(3){
-    font-size: 30px;
-    margin-top: 33px;
+    font-size: 1.875rem;
+    margin-top: 2.0625rem;
     color: gray;
-    margin-left: 500px;
+    margin-left: 31.25rem;
 }
 .list{
-    padding-top: 15px;
+    padding-top: .9375rem;
     width: 70%;
-    height: 150px;
-    margin: 60px auto;
+    height: 9.375rem;
+    margin: 3.75rem auto;
     background-color: rgb(165, 164, 164);
     margin-bottom: 0;
 }
 .list li{
-    width: 180px;
-    height: 60px;
+    width: 11.25rem;
+    height: 3.75rem;
     float: left;
-    line-height: 60px;
-    margin: 5px;
-    font-size: 19px;
+    line-height: 3.75rem;
+    margin: .3125rem;
+    font-size: 1.1875rem;
     text-align: center;
     cursor: pointer;
 }
@@ -60,14 +61,14 @@ ul{
     display: block;
 }
 .box li{
-    padding: 10px;
+    padding: .625rem;
     padding-top: 0;
-    height: 40px;
+    height: 2.5rem;
     float: left;
     text-align: center;
-    line-height: 50px;
+    line-height: 3.125rem;
     background-color: rgba(20, 30, 60, .4);
-    margin: 10px;
+    margin: .625rem;
     cursor: pointer;
 }
 .box ul li.active{
@@ -76,23 +77,23 @@ ul{
 }
 footer{
     width: 60%;
-    margin: 120px auto;
+    margin: 7.5rem auto;
 }
 footer .explain{
-    width: 500px;
-    height: 60px;
+    width: 31.25rem;
+    height: 3.75rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    line-height: 40px;
+    line-height: 2.5rem;
 }
 footer .explain div{
     text-align: center;
     background-color: black;
-    width: 100px;
-    height: 30px;
-    line-height: 30px;
+    width: 6.25rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
     color: white;
     cursor: pointer;
 }
@@ -103,27 +104,27 @@ footer .explain div{
     display: block;
 }
 .illustrate .use{
-    width: 400px;
-    height: 150px;
+    width: 25rem;
+    height: 9.375rem;
     background-color: pink;
     color: black;
     margin: 0 auto;
 }
 .illustrate .use ul li{
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 1.25rem;
+    margin-bottom: .625rem;
 }
 .illustrate .install{
-    width: 300px;
-    height: 150px;
+    width: 18.75rem;
+    height: 9.375rem;
     background-color: gray;
     margin: 0 auto;
     text-align: center;
 }
 .illustrate .install button{
-    width: 200px;
-    height: 30px;
-    margin: 10px;
+    width: 12.5rem;
+    height: 1.875rem;
+    margin: .625rem;
     text-align: center;
     cursor: pointer;
 }
