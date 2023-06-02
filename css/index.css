@@ -4,7 +4,7 @@
 }
 html,body{
     height: 100%;
-    font-size: 1rem;
+    font-size: 16px;
 }
 ul{
     list-style: none;
@@ -77,7 +77,7 @@ ul{
 }
 footer{
     width: 60%;
-    margin: 7.5rem auto;
+    margin: 9.5rem auto;
 }
 footer .explain{
     width: 31.25rem;

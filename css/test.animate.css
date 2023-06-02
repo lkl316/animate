@@ -1,0 +1,254 @@
+@keyframes T1 {
+    0%,
+    50%,
+    100%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(50px);
+    }
+    75%{
+        transform: translateX(-50px);
+    }
+}
+@keyframes T2 {
+    0%,
+    50%,
+    100%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(20px);
+    }
+    75%{
+        transform: translateX(-20px);
+    }
+}
+@keyframes T3 {
+    0%,
+    50%,
+    100%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-20px);
+    }
+    75%{
+        transform: translateX(20px);
+    }
+}
+@keyframes T4 {
+    0%,
+    50%,
+    100%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(10px);
+    }
+}
+@keyframes R1 {
+    0%,
+    25%,
+    100%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+}
+@keyframes R2 {
+    0%{
+        transform: perspective(800px) rotateY(-1turn) translateZ(0) scaleX(1);
+        animation-timing-function: ease-in;
+    }
+   40%{
+    transform: perspective(800px) rotateY(-190deg) translateZ(-150px) scaleX(1);
+    animation-timing-function: ease-in;
+   }
+   50%{
+    transform: perspective(800px) rotateY(-170deg) translateZ(-150px) scaleX(1);
+    animation-timing-function: ease-out;
+   }
+   80%{
+    transform: perspective(800px) rotateY(0) translateZ(0) scale3d(.95,.95,.95);
+    animation-timing-function: ease-out;
+   }
+   100%{
+    transform: perspective(800px) rotateY(0) translateZ(0) scaleX(1);
+    animation-timing-function: ease-out;
+   }
+}
+@keyframes R3 {
+    0%,
+    25%,
+    100%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(15deg);
+    }
+    75%{
+        transform: rotate(-15deg);
+    }
+}
+@keyframes R4 {
+    0%,
+    25%,
+    100%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(-15deg);
+    }
+    75%{
+        transform: rotate(15deg);
+    }
+}
+@keyframes S1 {
+    0%,
+    25%,
+    100%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(0.8);
+    }
+}
+@keyframes S2 {
+    0%,
+    25%,
+    100%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(.8);
+    }
+    75%{
+        transform: scale(1.2);
+    }
+}
+@keyframes W1 {
+    0%,
+    25%,
+    100%{
+        transform: skew(0);
+    }
+    25%{
+        transform: skew(30deg);
+    }
+    75%{
+        transform: skew(-30deg);
+    }
+}
+@keyframes W2 {
+    0%,
+    25%,
+    100%{
+        transform: skew(0);
+    }
+    25%{
+        transform: skew(-45deg);
+    }
+    75%{
+        transform: skew(45deg);
+    }
+}
+@keyframes A1 {
+    0% {
+        transform: translateX(-15%);
+        animation-timing-function: linear;
+    }
+
+    25% {
+        transform: translateX(15%) rotateX(360deg);
+        animation-timing-function: ease;
+    }
+
+    50% {
+        transform: translateX(-15%) scale(.5);
+        animation-timing-function: ease-in-out;
+    }
+
+    75% {
+        transform: translateX(15%) skew(45deg) rotateX(0deg) scaleX(1.5);
+        animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    }
+
+    100% {
+        transform: translateX(-15%) skew(-25deg);
+    }
+}
+@keyframes jello {
+    0% {
+        transform: skewX(0deg) skewY(0deg);
+    }
+
+    15% {
+        transform: skewX(-12deg) skewY(-12deg);
+    }
+
+    30% {
+        transform: skew(10deg) skewY(10deg);
+    }
+
+    45% {
+        transform: skew(-8deg) skewY(-8deg);
+    }
+
+    60% {
+        transform: skew(6deg) skewY(6deg);
+    }
+
+    75% {
+        transform: skew(-4deg) skewY(-4deg);
+    }
+
+    90% {
+        transform: skew(2deg) skewY(2deg);
+    }
+
+    100% {
+        transform: skew(0deg) skewY(0deg);
+    }
+}
+@keyframes op {
+    0%,
+    100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+@keyframes op2 {
+    0%,
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    50%{
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+@keyframes op3 {
+    0%,
+    100%{
+        opacity: 1;
+        background-color: skyblue;
+    }
+    50%{
+        opacity: 0;
+        background-color: white;
+    }
+}

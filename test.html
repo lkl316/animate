@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" type="images/x-icon" href="./static/favicon.ico">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/test.animate.css">
+    <link rel="stylesheet" href="./css/test.css">
+</head>
+
+<body>
+    <div class="box">
+        <div>
+            <div id="graphics"></div>
+            <div id="word">lance</div>
+        </div>
+        <input type="button" id="execute" value="点我执行">
+    </div>
+    <div class="container">
+        <div class="test">
+            <h3>动画测试</h3>
+            <div class="translate">
+                <p>移动</p>
+                <span>来自何处:</span>
+                <input type="text" placeholder="X轴" id="tx">
+                <input type="text" placeholder="Y轴" class="Y" id="ty">
+                <input type="text" placeholder="Z轴" id="tz">
+            </div>
+            <div class="rotate">
+                <p>旋转</p>
+                <span>旋转角度:</span>
+                <input type="text" placeholder="X轴" id="rx">
+                <input type="text" placeholder="Y轴" class="Y" id="ry">
+                <input type="text" placeholder="Z轴" id="rz">
+            </div>
+            <div class="scale">
+                <p>缩放</p>
+                <span>设定倍数</span>
+                <input type="text" placeholder="0-5" id="s">
+            </div>
+            <div class="skew">
+                <p>倾斜</p>
+                <span>设置倾斜度</span>
+                <input type="text" placeholder="X轴" id="swx">
+                <input type="text" placeholder="Y轴" id="swy">
+            </div>
+            <div class="cb">
+                <p>贝塞尔曲线</p>
+                <input type="button" name="cubic-bezier(0.39,0.57,0.56,1)" value="匀入缓停">
+                <input type="button" name="cubic-bezier(0.17,0.84,0.44,1)" value="慢入缓停">
+                <input type="button" name="cubic-bezier(0.23,1,0.32,1)" value="快速缓停">
+                <input type="button" name="cubic-bezier(0.18,0.89,0.32,1.27)" id="" value="快入回停">
+                <input type="button" name="cubic-bezier(0.65,0.05,0.36,1)" id="linear" value="慢入快停">
+                <input type="button" name="cubic-bezier(0.79,0.14,0.15,0.86)" id="" value="慢入快行">
+                <input type="button" name="cubic-bezier(0.68,-0.55,0.27,1.55)" id="" value="回入回停">
+                <input type="button" name="cubic-bezier(0.6,-0.28,0.74,0.05)" id="" value="回入快停">
+                <input type="text" id="" class="scb" placeholder="手动输入贝塞尔曲线">
+            </div>
+            <div class="etc">
+                <div class="op">
+                    <span>渐隐渐出</span>
+                    <input type="checkbox">
+                </div>
+                <div class="leave">
+                    <span>离开动画</span>
+                    <input type="checkbox">
+                </div>
+                <div class="showWord">
+                    <span>显示文字</span>
+                    <input type="checkbox">
+                </div>
+                <div class="wordInput">
+                    <input type="text" placeholder="输入要显示的文字">
+                </div>
+                <div class="time">
+                    <input type="text" placeholder="delay-time">
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <textarea class="copy1"></textarea>
+            <textarea class="copy2"></textarea>
+        </div>
+    </div>
+
+
+    <script src="./js/test.js"></script>
+</body>
+
+</html>

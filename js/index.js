@@ -27,3 +27,6 @@ $("#animate").click(function(){
 $("#animate2").click(function(){
     location.href = "https://animate.style/"
 })
+$("#test").click(function(){
+    location.href = "../test.html"
+})

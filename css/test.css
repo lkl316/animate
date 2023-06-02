@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-size: 16px;
+}
+.box{
+    width: 100%;
+    height: 40%;
+    background-color: gray;
+}
+.container{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    box-sizing: border-box;
+}
+.test{
+    width: 50%;
+    height: 100%;
+    background-color: skyblue;
+}
+.copy{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.container .test h3{
+    text-align: center;
+}
+.container .test .translate p{
+    text-align: center;
+    animation: 2s T1 linear infinite;
+}
+.container .test .translate span{
+    margin-left: 1.25rem;
+    display: inline-block;
+    animation: 1s T4 linear infinite;
+}
+.container .test .translate input{
+    margin: .625rem;
+    outline: none;
+    border: 0;
+    border-bottom: .125rem solid white;
+    background-color: skyblue;
+    text-align: center;
+    animation: 1s T2 linear infinite;
+}
+.container .test .translate .Y{
+    animation: 1s T3 linear infinite;
+}
+.rotate{
+    margin-top: 1.25rem;
+}
+.rotate p{
+    text-align: center;
+    animation: 1s R1 linear infinite;
+    margin-bottom: .625rem;
+}
+.rotate span{
+    margin-left: 1.25rem;
+    display: inline-block;
+    animation: 1s R2 linear infinite;
+}
+.rotate input{
+    margin: .625rem;
+    outline: none;
+    border: 0;
+    border-bottom: .125rem solid white;
+    background-color: skyblue;
+    text-align: center;
+    animation: 1s R3 linear infinite;
+}
+.rotate .Y{
+    animation: 1s R4 linear infinite;
+}
+.scale{
+    margin-top: 1.25rem;
+}
+.scale p{
+    text-align: center;
+    animation: 1s S1 linear infinite;
+    margin-bottom: .625rem;
+}
+.scale span{
+    margin-left: 1.25rem;
+    display: inline-block;
+    animation: 1s S1 linear infinite;
+}
+.scale input{
+    margin: .625rem;
+    outline: none;
+    border: 0;
+    border-bottom: .125rem solid white;
+    background-color: skyblue;
+    text-align: center;
+    animation: 1s S2 linear infinite;
+}
+.skew{
+    margin-top: 1.25rem;
+}
+.skew p{
+    text-align: center;
+    animation: 1s W1 linear infinite;
+    margin-bottom: .625rem;
+}
+.skew span{
+    margin-left: 1.25rem;
+    display: inline-block;
+    animation: 1s W1 linear infinite;
+}
+.skew input{
+    margin: .625rem;
+    outline: none;
+    border: 0;
+    border-bottom: .125rem solid white;
+    background-color: skyblue;
+    text-align: center;
+    animation: 1s W2 linear infinite;
+}
+.cb{
+    margin-top: 1.25rem;
+}
+.cb p{
+    animation: 5s A1 ease infinite;
+    text-align: center;
+    margin-bottom: .625rem;
+}
+.cb input{
+    outline: none;
+    user-select: none;
+    border: .0625rem white solid;
+    background-color: black;
+    color: white;
+    width: 6.25rem;
+    height: 1.875rem;
+    margin-top: .625rem;
+    animation: 3s jello linear infinite;
+}
+.cb input:hover{
+    background-color: white;
+    color: black;
+}
+.cb .scb{
+    margin: .625rem;
+    outline: none;
+    border: 0;
+    border-bottom: .125rem solid white;
+    background-color: skyblue;
+    text-align: center;
+    width: calc(100% - 9.375rem);
+    animation: none;
+    text-align: center;
+    margin-left: 3.125rem;
+}
+.cb .scb:hover{
+    background-color: skyblue;
+    color: black;
+}
+.box{
+    position: relative;
+}
+.box div{
+    width: 7.5rem;
+    height: 7.5rem;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.box input{
+    width: 6.25rem;
+    height: 1.875rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 16.875rem auto;
+    background-color: skyblue;
+}
+.copy textarea{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-size: 1.5625rem;
+}
+.copy1{
+    background-color: white;
+    color: black;
+}
+.copy2{
+    background-color: black;
+    color: white;
+}
+.etc{
+    margin-top: 1.25rem;
+    display: flex;
+}
+.etc .op{
+    margin-left: 1.25rem;
+    width: 6.25rem;
+    height: 1.875rem;
+    background-color: red;
+    text-align: center;
+    line-height: 1.875rem;
+}
+.etc .op input{
+   transform: scale(1.2);
+}
+.op1{
+    animation: 1s op linear;
+}
+
+.etc .leave{
+    margin-left: 1.25rem;
+    width: 6.25rem;
+    height: 1.875rem;
+    background-color: red;
+    text-align: center;
+    line-height: 1.875rem;
+}
+.etc .leave input{
+   transform: scale(1.2);
+}
+.op2{
+    animation: 1s op2 linear;
+}
+#word{
+    display: none;
+    color: black;
+    font-size: 3.125rem;
+    text-align: center;
+    line-height: 7.5rem;
+    background-color: gray;
+}
+.etc .showWord{
+    margin-left: 1.25rem;
+    width: 6.25rem;
+    height: 1.875rem;
+    background-color: red;
+    text-align: center;
+    line-height: 1.875rem;
+}
+.etc .showWord input{
+   transform: scale(1.2);
+}
+.wordInput input{
+    position: absolute;
+    outline: none;
+    border: none;
+    border-bottom: .125rem black solid;
+    color: green;
+    background-color: skyblue;
+    left: 25rem;
+    bottom: 2.1875rem;
+    text-align: center;
+}
+.op3{
+    animation: 1s op3 linear;
+}
+.time input{
+    position: absolute;
+    outline: none;
+    border: none;
+    border-bottom: .125rem black solid;
+    color: green;
+    background-color: skyblue;
+    left: 37.5rem;
+    bottom: 2.1875rem;
+    text-align: center;
+}
